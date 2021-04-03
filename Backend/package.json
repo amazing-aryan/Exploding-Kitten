@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build:ui": "(if exist rmdir build /s /q) && cd ../Frontend/exploding-kittens && npm run build && xcopy build ..\\..\\Backend\\build /s /e /y /i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
