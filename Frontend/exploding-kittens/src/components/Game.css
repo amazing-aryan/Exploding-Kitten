@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+	flex-flow: row;
+	justify-content: center;
+	margin: 10px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    border-style: groove;
+    border-color: black;
+}
+
+.inner-block {
+    width: fit-content;
+    margin: auto;
+}
