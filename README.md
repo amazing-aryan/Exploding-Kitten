@@ -29,6 +29,8 @@ Navigate to the project directory and then run following commands:
 
 Run the App using `npm run start` in /Backend directory
 
+Application can be opened at `http://localhost:8081/`
+
 ## Things to Know
 
 1. Frontend contains code for the frontend part, which can be accessed and run independently after `npm install` and `npm run start` in `/Frontend/Exploding-Kitten`
